@@ -22,7 +22,7 @@ npm run build
 
 ## Codex cloud
 
-Select this GitHub repository in your Codex cloud environment. Use Node.js 22.19 or later in the Node.js 22 release line and set the setup command to `npm ci`. Run the validation commands above after changes. Web development, tests, and builds can run on Linux; building and signing the iOS app requires macOS and Xcode.
+Select this GitHub repository in your Codex cloud environment. Use Node.js 22.19 or later in the Node.js 22 release line and ask Codex to install dependencies with `npm ci`. Run the validation commands above after changes. Web development, tests, and builds can run on Linux; building and signing the iOS app requires macOS and Xcode.
 
 ## iOS
 
@@ -42,6 +42,8 @@ Run Capacitor sync on macOS before opening Xcode so generated plugin paths match
 - `tests/`: model and app readiness tests
 - `ios/`: native iOS project
 - `docs/`: project specifications and plans
-- `stitch_smart_expiry_tracker/`: design references
+Design reference files in `stitch_smart_expiry_tracker/` are retained locally and omitted from this upload.
 
 Dependency folders, build outputs, local tool state, and environment secrets are excluded by `.gitignore`.
+
+
